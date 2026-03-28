@@ -1,4 +1,4 @@
-#  amber-cli
+#  @dream-mb/amber-cli
 ![Npm 版本](https://img.shields.io/badge/amber-cli_v0.0.1-green)
 
 ## 📖简介
@@ -10,7 +10,7 @@
 ## 📦 安装
 
 ```bash
-npm install amber-cli -g
+npm install @dream-mb/amber-cli -g
 ```
 ## 🚩使用
 

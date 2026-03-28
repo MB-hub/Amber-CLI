@@ -1,7 +1,7 @@
 {
-  "name": "amber-cli",
+  "name": "@dream-mb/amber-cli",
   "version": "0.0.1",
-  "description": "amber-cli 脚手架",
+  "description": "@dream-mb/amber-cli 脚手架",
   "main": "rollup.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
