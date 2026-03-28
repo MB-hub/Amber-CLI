@@ -1,14 +1,22 @@
 {
-  "name": "auto-cli",
-  "version": "1.0.0",
-  "description": "",
+  "name": "amber-cli",
+  "version": "0.0.1",
+  "description": "amber-cli 脚手架",
   "main": "rollup.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c rollup.config.js --bundleConfigAsCjs"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Vite","Vue3","Typescript","Element-Plus"],
+  "author": "mengbo",
+  "bin": {
+    "mengbo": "bin/index.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md"
+  ],
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
