@@ -2,6 +2,7 @@ import { exec } from "child_process";
 import chalk from "chalk";
 import ora from "ora";
 import { promisify } from "util";
+import log from "../utils/log";
 // 將 exec 轉為 Promise 版本，方便使用 async/await
 const execPromise = promisify(exec);
 const spinner = ora({
@@ -24,10 +25,10 @@ export async function update() {
 
     // 針對權限錯誤（EACCES）給予友好提示
     if (error.message.includes("EACCES") || error.message.includes("permission denied")) {
-      console.log(chalk.yellow("\n⚠️  權限不足，請嘗試執行："));
-      console.log(chalk.white(`   sudo npm install @dream-mb/amber-cli@latest -g\n`));
+      log.warning(chalk.yellow("\n⚠️  權限不足，請嘗試執行："));
+      log.info(chalk.white(`   sudo npm install @dream-mb/amber-cli@latest -g\n`));
     } else {
-      console.error(chalk.red(`錯誤詳情: ${error.message}`));
+      log.error(chalk.red(`錯誤詳情: ${error.message}`));
     }
   }
   // exec("npm install @dream-mb/amber-cli@latest -g", (error) => {
