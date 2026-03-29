@@ -7,7 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c rollup.config.js --bundleConfigAsCjs"
   },
-  "keywords": ["Vite","Vue3","Typescript","Element-Plus"],
+  "keywords": [
+    "Vite",
+    "Vue3",
+    "Typescript",
+    "Element-Plus"
+  ],
   "author": "mengbo",
   "bin": {
     "mengbo": "bin/index.js"
@@ -27,10 +32,13 @@
     "@rollup/plugin-terser": "^1.0.0",
     "@rollup/plugin-typescript": "^12.3.0",
     "@types/fs-extra": "^11.0.4",
+    "@types/lodash": "^4.17.24",
     "@types/node": "^25.5.0",
+    "axios": "^1.14.0",
     "chalk": "^5.6.2",
     "commander": "^14.0.3",
     "fs-extra": "^11.3.4",
+    "lodash": "^4.17.23",
     "progress-estimator": "^0.3.1",
     "rollup": "^4.60.0",
     "rollup-plugin-node-externals": "^8.1.2",
