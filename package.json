@@ -1,6 +1,6 @@
 {
   "name": "@dream-mb/amber-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "@dream-mb/amber-cli 脚手架",
   "main": "rollup.config.js",
   "scripts": {
