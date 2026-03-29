@@ -1,6 +1,6 @@
 {
   "name": "@dream-mb/amber-cli",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "@dream-mb/amber-cli 脚手架",
   "main": "rollup.config.js",
   "scripts": {
@@ -39,6 +39,7 @@
     "commander": "^14.0.3",
     "fs-extra": "^11.3.4",
     "lodash": "^4.17.23",
+    "ora": "^9.3.0",
     "progress-estimator": "^0.3.1",
     "rollup": "^4.60.0",
     "rollup-plugin-node-externals": "^8.1.2",
